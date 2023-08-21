@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textoBlanco {
+ color: white;
+}
+
+.textoAzul{
+    color: #1F496F;
+}
