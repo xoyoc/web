@@ -9,3 +9,7 @@
 .textoAzul{
     color: #1F496F;
 }
+
+input::placeholder {
+    color: #1F496F;
+}

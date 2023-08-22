@@ -138,55 +138,61 @@
                 <img src="./img/05-Foto.jpg" alt="FotoNovios2">
             </div>
         </div>
-        <div class="h-2/6 w-screen bg-verde-agua"> <!-- Detalles de los paquetes -->
-            <div>
-                <ul>
-                    <li>Segunda cámara foto: $2,000</li>
-                    <li>Segunda cámara video: $2,000</li>
-                    <li>Sesión Previa: $3,000</li>
-                    <li>Cobertura ceremonia y fiesta: $9,000</li>
-                    <li>Getting ready y sesión formal: $2,000</li>
-                    <li>Trash the dress: $3,5000</li>
-                    <li>Dron: $2,500</li>
-                    <li>Video semblanza: $4,500</li>
-                </ul>
-            </div>
-            <div>
-                <p>Las fechas de entrega de los materiales y detalles de contratación se estipulan en la firma del contrato. Los precios están sujetosd a vencimiento y cambios sin previo aviso.</p>
-            </div>
-            <div>
-                <h4>Importante:</h4>
-                <ol>
-                    <li>Contáctame via Whatsapp y compárteme los siguientes datos de tu evento o sesión:</li>
-                    <ul>
-                        <li>Nombre del contratante</li>
-                        <li>Tipo de evento/sesión</li>
-                        <li>Lugar y fecha</li>
+        <div class="h-3/6 w-screen bg-verde-agua py-5"> <!-- Detalles de los paquetes -->
+            <div class="h-2/6 flex justify-center">
+                <div class="w-2/12 border-r-4 px-3">
+                    <ul class="list-disc list-outside font-bold w-9/12">
+                        <li>Segunda cámara foto: $2,000</li>
+                        <li>Segunda cámara video: $2,000</li>
+                        <li>Sesión Previa: $3,000</li>
+                        <li>Cobertura ceremonia y fiesta: $9,000</li>
+                        <li>Getting ready y sesión formal: $2,000</li>
+                        <li>Trash the dress: $3,5000</li>
+                        <li>Dron: $2,500</li>
+                        <li>Video semblanza: $4,500</li>
                     </ul>
-                    <li>Aparta tu fecha con el 10% de anticipo y firma de contrato.</li>
-                    <li>Finiquita el pago 8 días hábiles antes del evento/sesión. Para contratarme:</li>
-                </ol>
-                <small>*Tu pago puede ser en efectivo o transferencia.</small>
+                </div>
+                <div class="w-2/12 border-r-4 px-3 flex">
+                    <div class="mx-5 text-justify self-end">
+                        <small class="">Las fechas de entrega de los materiales y detalles de contratación se estipulan en la firma del contrato. Los precios están sujetosd a vencimiento y cambios sin previo aviso.</small>
+                    </div>
+                </div>
+                <div class="w-4/12 px-3 self-end font-bold">
+                    <h4 class="text-3xl">Importante:</h4>
+                    <ol class="list-decimal list-outside pl-5">
+                        <li>Contáctame via Whatsapp y compárteme los siguientes datos de tu evento o sesión:</li>
+                        <ul class="list-disc list-outside pl-7">
+                            <li>Nombre del contratante</li>
+                            <li>Tipo de evento/sesión</li>
+                            <li>Lugar y fecha</li>
+                        </ul>
+                        <li>Aparta tu fecha con el 10% de anticipo y firma de contrato.</li>
+                        <li>Finiquita el pago 8 días hábiles antes del evento/sesión. Para contratarme:</li>
+                    </ol>
+                    <small>*Tu pago puede ser en efectivo o transferencia.</small>
+                </div>
             </div>
         </div>        
     </section>
-    <footer class="flex">
-        <div>
-            <div>
+    <footer class="flex justify-around">
+        <div class="w-3/12 text-center">
+            <div class="my-2 mx-2">
                 <img class="object-none object-center" src="./img/logo-yadira.png" alt="Logotipo">
             </div>
-            <div>
+            <div class="my-2 mx-2">
                 <h2 class="font-alice text-2xl pb-10">Estás a un solo clic de agendar la fecha para la sesión de fotografías idel para ti.</h2>
                 <h3 class="font-alice text-2xl font-medium">Cotizaciones & contrataciones<br />al whatsapp</h3>
                 <button class="textoBlanco bg-verde-gris px-9 py-1 rounded-full font-bold text-2xl">w. 33 567 8933</button>
             </div>
         </div>
         <div>
-            <h5>¿Deseas recibir más información? Déjanos tus datos.</h5>
-            <form action="">
-                <input type="text">
-                <input type="text">
-                <input type="date" name="" id="">
+            <h5 class="font-alice text-4xl font-medium text-center">¿Deseas recibir más información? <br> Déjanos tus datos.</h5>
+            <form action="" class="flex flex-col my-5 mx-5">
+                <input class="border rounded-full font-bold text-2xl my-2 mx-2 py-2 px-8" placeholder="Nombre" type="text">
+                <input class="border rounded-full font-bold text-2xl my-2 mx-2 py-2 px-8" placeholder="Whatsapp" type="text">
+                <label class="font-bold text-2xl">Fecha del evento</label>
+                <input class="border rounded-full font-bold text-2xl my-2 mx-2 py-2 px-8" type="date" name="" id="">
+                <input class="textoBlanco bg-verde-gris px-9 py-1 rounded-full font-bold text-2xl my-2 mx-2" type="button" value="Enviar">
             </form>
         </div>
     </footer>
