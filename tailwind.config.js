@@ -7,6 +7,7 @@ module.exports = {
       'verde-gris': '#56718C',
       'azul-oscuro': '#1F496F',
       'cafe-precio': '#C7B19C',
+      'negro': '#000'
     },
     fontFamily: {
       'alice': 'Alice',
