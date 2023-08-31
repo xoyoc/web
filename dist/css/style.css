@@ -632,12 +632,12 @@ video {
   width: 16.666667%;
 }
 
-.w-3\/12 {
-  width: 25%;
+.w-2\/5 {
+  width: 40%;
 }
 
-.w-3\/5 {
-  width: 60%;
+.w-3\/12 {
+  width: 25%;
 }
 
 .w-4\/12 {
@@ -664,12 +664,8 @@ video {
   width: 100vw;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-1\/5 {
-  width: 20%;
+.w-3\/5 {
+  width: 60%;
 }
 
 .list-outside {
@@ -684,8 +680,16 @@ video {
   list-style-type: disc;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -821,6 +825,10 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
